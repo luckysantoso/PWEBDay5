@@ -1,0 +1,245 @@
+/* TEMPLATE RESET CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* CSS Saya */
+body{
+    background-color: #c5c2c2;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+    font-family: arial;
+    background-color: white;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: salmon;
+}
+
+.header a:hover{
+    background-color: lightblue;
+}
+
+.banner{
+    height: 500px;
+    background-image:url(foto_kucing.jpg);
+    background-size: cover;
+    background-position: 0 -50px;
+    border-top: 5px solid lightblue;
+    border-bottom: 5px solid salmon;
+    margin-top : 10px;
+}
+
+.main{
+    padding: 20px;
+    width: 600px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main .judul{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.main .penulis{
+    font-size: 13px;
+    margin-top: -5px;
+}
+.main .penulis a{
+    color: salmon;
+    text-decoration: none;
+}
+
+.main p{
+    margin-top: 30px;
+    text-align: justify;
+}
+
+
+.sidebar{
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar h3{
+    font-weight: bold;
+    color: #666;
+}
+
+.sidebar img{
+    width: 80px;
+    float: left;
+    padding: 10px;
+}
+
+.sidebar p{
+    font-size: 12px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.footer{
+    background-color: rgb(46, 44, 44);
+}
+
+.footer .copy{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* Elemen container cuaca */
+.cuaca {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Gaya untuk judul cuaca */
+  .cuaca h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Gaya untuk temperatur */
+  .temperatur {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* CSS untuk kontainer cuaca */
+.cuaca {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Gaya untuk judul cuaca */
+.cuaca h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Gaya untuk informasi temperatur */
+.cuaca #temperatur {
+    font-size: 24px;
+    color: #ff6600; /* Warna teks kuning misalnya */
+}
+
+/* Gaya untuk kondisi cuaca */
+.cuaca #kondisi {
+    font-size: 18px;
+    color: #666;
+}
+
+/* CSS untuk input kota */
+#kotaInput {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* CSS untuk tombol "Cari Cuaca" */
+#cariButton {
+    background-color: #007BFF; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* CSS untuk tombol saat dihover */
+#cariButton:hover {
+    background-color: #0056b3; /* Warna latar belakang saat hover */
+}
+
+
+/* Teknik lain memungkinkan tidak menambahkan div kosong */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
